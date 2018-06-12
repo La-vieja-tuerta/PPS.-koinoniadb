@@ -78,9 +78,11 @@ CREATE TABLE IF NOT EXISTS `ili_to_to` (
   KEY `top` (`top`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
-SHOW VARIABLES LIKE "secure_file_priv";
-
 -- cargado de tablas
+
+-- para cargar las tablas hay dos opciones
+-- op1: ejecutar SHOW VARIABLES LIKE "secure_file_priv"; y poner los archivos tsv en la direccion especificada
+-- op2: ir a C:\ProgramData\MySQL\MySQL Server 8.0, abrir my.ini, buscar secure_file_priv y comentarla, o darle el valor "". Luego reiniciar el servidor
 
 LOAD DATA INFILE 'C:/KoinoniaData/to_ili.tsv' INTO TABLE `to_ili`;
 LOAD DATA INFILE 'C:/KoinoniaData/relation.tsv' INTO TABLE `relation`;
