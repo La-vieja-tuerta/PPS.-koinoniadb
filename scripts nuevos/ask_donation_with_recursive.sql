@@ -1,11 +1,11 @@
 use koinoniadb;
-show tables;
-SELECT getHyponimTree(77445);
-SELECT getMatchingResources(77430);
-SELECT targetSynset
-FROM resourceTree;
-SELECT FIND_IN_SET(3241,"1234, 3241, 1315");
-SELECT FORMAT("1234, 3241, 1315",-3);
+--show tables;
+--SELECT getHyponimTree(77445);
+--SELECT getMatchingResources(77430);
+--SELECT targetSynset
+--FROM resourceTree;
+--SELECT FIND_IN_SET(3241,"1234, 3241, 1315");
+--SELECT FORMAT("1234, 3241, 1315",-3);
 -- la siguiente query selecciona aquellos id de resources_institutions
 -- cuyos IDs representen resources que matcheen con algun recurso en el
 -- arbol de hiperonimos
@@ -17,8 +17,6 @@ SELECT FORMAT("1234, 3241, 1315",-3);
 
 select count(*)
 from variant;
-
- show tables;
  
 select count(*)
 from variant
