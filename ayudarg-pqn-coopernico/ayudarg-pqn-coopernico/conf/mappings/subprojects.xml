@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Subprojects" tabla="subprojects">		<id columna="id" nombre="id" />
+		<propiedad columna="project_id" nombre="projectId" />
+		<propiedad columna="user_id" nombre="userId" />
+		<propiedad columna="name" nombre="name" />
+		<propiedad columna="description" nombre="description" />
+		<propiedad columna="status" nombre="status" />
+		<propiedad columna="start_date" nombre="startDate" />
+		<propiedad columna="end_date" nombre="endDate" />
+		<propiedad columna="created" nombre="created" />
+		<propiedad columna="updated" nombre="updated" />
+		<propiedad columna="parent_id" nombre="parentId" />
+	</clase>
+</mapping>

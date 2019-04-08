@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Notifications" tabla="notifications">		<id columna="id" nombre="id" />
+		<propiedad columna="model" nombre="model" />
+		<propiedad columna="user_id" nombre="userId" />
+		<propiedad columna="row" nombre="row" />
+		<propiedad columna="title" nombre="title" />
+		<propiedad columna="description" nombre="description" />
+		<propiedad columna="status" nombre="status" />
+		<propiedad columna="created" nombre="created" />
+		<propiedad columna="updated" nombre="updated" />
+	</clase>
+</mapping>

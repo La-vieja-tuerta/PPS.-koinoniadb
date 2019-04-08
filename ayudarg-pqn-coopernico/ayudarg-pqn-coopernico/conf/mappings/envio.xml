@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Envio" tabla="envio">
+		<id nombre="idEnvio" columna="id_envio" />
+		<propiedad nombre="donante" columna="donante" />
+		<propiedad nombre="receptor" columna="receptor" />
+		<propiedad nombre="entregado" columna="entregado" />
+		<propiedad nombre="numeroSeguimiento" columna="numero_seguimiento" />
+		<propiedad nombre="addressDonante" columna="address_donante" />
+		<propiedad nombre="latitudeReceptor" columna="latitude_receptor" />
+		<propiedad nombre="longitudeReceptor" columna="longitude_receptor" />
+		<propiedad nombre="fechaEnvio" columna="fecha_envio" />
+		<propiedad nombre="fechaRecepcion" columna="fecha_recepcion" />
+		<propiedad nombre="descripcion" columna="descripcion" />
+		<propiedad nombre="idInstitucionReceptorFk" columna="id_institucion_receptor_fk" />
+	</clase>
+</mapping>

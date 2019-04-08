@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Units" tabla="units">		<propiedad columna="id" nombre="id" />
+		<propiedad columna="tipo" nombre="tipo" />
+	</clase>
+</mapping>

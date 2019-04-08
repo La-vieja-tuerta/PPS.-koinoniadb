@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Settings" tabla="settings">		<id columna="id" nombre="id" />
+		<propiedad columna="key" nombre="key" />
+		<propiedad columna="value" nombre="value" />
+		<propiedad columna="title" nombre="title" />
+		<propiedad columna="description" nombre="description" />
+		<propiedad columna="input_type" nombre="inputType" />
+		<propiedad columna="editable" nombre="editable" />
+		<propiedad columna="weight" nombre="weight" />
+		<propiedad columna="params" nombre="params" />
+	</clase>
+</mapping>

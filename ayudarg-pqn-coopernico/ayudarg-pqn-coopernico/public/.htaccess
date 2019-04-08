@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /ayudarg
+
+RewriteRule ^acc-(.*)/(.*)/$ index.php?mod=donacion&accion=$1&id=$2 [L]

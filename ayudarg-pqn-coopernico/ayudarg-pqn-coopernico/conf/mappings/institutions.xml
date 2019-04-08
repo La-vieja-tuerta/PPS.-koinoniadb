@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Institutions" tabla="institutions">
+		<id columna="id" nombre="id" />
+		<propiedad columna="director_user_id" nombre="directorUserId" />
+		<propiedad columna="manager_user_id" nombre="managerUserId" />
+		<propiedad columna="contact_user_id" nombre="contactUserId" />
+		<propiedad columna="type_id" nombre="typeId" />
+		<propiedad columna="sector_id" nombre="sectorId" />
+		<propiedad columna="location_id" nombre="locationId" />
+		<propiedad columna="attachment_id" nombre="attachmentId" />
+		<propiedad columna="name" nombre="name" />
+		<propiedad columna="address" nombre="address" />
+		<propiedad columna="phone" nombre="phone" />
+		<propiedad columna="website" nombre="website" />
+		<propiedad columna="email" nombre="email" />
+		<propiedad columna="shortbio" nombre="shortbio" />
+		<propiedad columna="bio" nombre="bio" />
+		<propiedad columna="interest" nombre="interest" />
+		<propiedad columna="timezone" nombre="timezone" />
+		<propiedad columna="fax" nombre="fax" />
+		<propiedad columna="status" nombre="status" />
+		<propiedad columna="created" nombre="created" />
+		<propiedad columna="updated" nombre="updated" />
+		<propiedad columna="parent_id" nombre="parentId" />
+		<propiedad columna="latitude" nombre="latitude" />
+		<propiedad columna="longitude" nombre="longitude" />
+		<propiedad columna="namemostrar" nombre="namemostrar" />
+	</clase>
+</mapping>

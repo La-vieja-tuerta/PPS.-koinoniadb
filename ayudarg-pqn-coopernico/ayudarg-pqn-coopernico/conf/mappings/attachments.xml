@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Attachments" tabla="attachments">		<id columna="id" nombre="id" />
+		<propiedad columna="model" nombre="model" />
+		<propiedad columna="row" nombre="row" />
+		<propiedad columna="user_id" nombre="userId" />
+		<propiedad columna="dirname" nombre="dirname" />
+		<propiedad columna="basename" nombre="basename" />
+		<propiedad columna="filename" nombre="filename" />
+		<propiedad columna="original_filename" nombre="originalFilename" />
+		<propiedad columna="extention" nombre="extention" />
+		<propiedad columna="mimetype" nombre="mimetype" />
+		<propiedad columna="group" nombre="group" />
+		<propiedad columna="size" nombre="size" />
+		<propiedad columna="width" nombre="width" />
+		<propiedad columna="height" nombre="height" />
+		<propiedad columna="created" nombre="created" />
+		<propiedad columna="updated" nombre="updated" />
+	</clase>
+</mapping>

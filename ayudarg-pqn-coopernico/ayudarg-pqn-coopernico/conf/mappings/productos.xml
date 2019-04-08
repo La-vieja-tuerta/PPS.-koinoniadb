@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Productos" tabla="productos">		<id columna="prod_id" nombre="prodId" />
+		<propiedad columna="prod_cat_id" nombre="prodCatId" />
+		<propiedad columna="prod_nombre" nombre="prodNombre" />
+		<propiedad columna="prod_precio" nombre="prodPrecio" />
+		<propiedad columna="prod_foto" nombre="prodFoto" />
+		<propiedad columna="prod_stock" nombre="prodStock" />
+		<propiedad columna="prod_costo" nombre="prodCosto" />
+		<propiedad columna="prod_codigob" nombre="prodCodigob" />
+	</clase>
+</mapping>

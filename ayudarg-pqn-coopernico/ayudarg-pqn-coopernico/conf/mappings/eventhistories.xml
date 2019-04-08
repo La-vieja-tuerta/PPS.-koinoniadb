@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Eventhistories" tabla="eventhistories">		<id columna="id" nombre="id" />
+		<propiedad columna="resource_id" nombre="resourceId" />
+		<propiedad columna="subproject_id" nombre="subprojectId" />
+		<propiedad columna="created" nombre="created" />
+		<propiedad columna="updated" nombre="updated" />
+	</clase>
+</mapping>

@@ -1,0 +1,17 @@
+{
+  "name": "koinonia/ayudarg",
+  "descripton":"Sitio ayudarg",
+  "minimum-stability": "dev",
+  "licence": "GPL",
+  "authors":[{
+    "name": "Lucas Vidaguren",
+    "email": "lucas.vidaguren@asivas.com.ar"
+  },{
+    "name": "Moises Bueno",
+    "email": "moibueno@gmail.com"
+  }],
+  "require": {
+    "ircmaxell/random-lib": "v1.2.0",
+    "phpmailer/phpmailer": "^6.0"
+  }
+}

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sistema PUBLIC "-//FCEunicen//DTD Config//ES" "http://apps.econ.unicen.edu.ar/public/dtd/config.dtd" >
+<sistema nombre="" version-pasquino="1.6" version="0.1" dbUpdater-class="AyudargDbUpdater" properties-manager-class="ConfiguracionHelper">
+	<date-formats>
+		<date-format>%d/%m/%Y</date-format>
+		<datetime-format>%d/%m/%Y %H:%M</datetime-format>
+		<time-format>%H:%M</time-format>
+	</date-formats>
+	<mappings path="conf/mappings" >
+		<mapping archivo="attachments.xml" clase="Attachments" />
+		<mapping archivo="conversations.xml" clase="Conversations" />
+		<mapping archivo="conversationsusers.xml" clase="ConversationsUsers" />
+		<mapping archivo="departments.xml" clase="Departments" />
+		<mapping archivo="distancesinstitutions.xml" clase="DistancesInstitutions" />
+		<mapping archivo="eventhistories.xml" clase="Eventhistories" />
+		<mapping archivo="institutions.xml" clase="Institutions" />
+		<mapping archivo="institutionsusers.xml" clase="InstitutionsUsers" />
+		<mapping archivo="locations.xml" clase="Locations" />
+		<mapping archivo="logs.xml" clase="Logs" />
+		<mapping archivo="messages.xml" clase="Messages" />
+		<mapping archivo="notifications.xml" clase="Notifications" />
+		<mapping archivo="preferences.xml" clase="Preferences" />
+		<mapping archivo="productos.xml" clase="Productos" />
+		<mapping archivo="projects.xml" clase="Projects" />
+		<mapping archivo="projectsinstitutions.xml" clase="ProjectsInstitutions" />
+		<mapping archivo="provinces.xml" clase="Provinces" />
+		<mapping archivo="requisitions.xml" clase="Requisitions" />
+		<mapping archivo="resources.xml" clase="Resources" />
+		<mapping archivo="resourcesinstitutions.xml" clase="ResourcesInstitutions" />
+		<mapping archivo="resourcessubprojects.xml" clase="ResourcesSubprojects" />
+		<mapping archivo="resourcesleafs.xml" clase="Resourcesleafs" />
+		<mapping archivo="roles.xml" clase="Roles" />
+		<mapping archivo="sectors.xml" clase="Sectors" />
+		<mapping archivo="settings.xml" clase="Settings" />
+		<mapping archivo="subprojects.xml" clase="Subprojects" />
+		<mapping archivo="types.xml" clase="Types" />
+		<mapping archivo="units.xml" clase="Units" />
+		<mapping archivo="users.xml" clase="Users" />
+		<mapping archivo="usersinstitutions.xml" clase="UsersInstitutions" />
+		<mapping archivo="usersprojects.xml" clase="UsersProjects" />
+		<mapping archivo="usersresources.xml" clase="UsersResources" />
+		<mapping archivo="envio.xml" clase="Envio" />
+		<mapping archivo="resourcesparents.xml" clase="ResourcesParents"/>
+	</mappings>
+
+	<data-sources default="operativa">
+        <data-source name="operativa" dbms="mysqli" host="localhost" db-name="operativa" username="operativa" password="caritaskoinonia.org" />
+	</data-sources>
+	<auths default="AyudargAuth">
+		<auth name="AyudargAuth" class="AyudargAuth" />
+	</auths>
+	<modulos default="Paginas" path="modulos">
+		<modulo nombre="Paginas">
+            <archivos>
+                <coreDir ruta="Paginas">
+                    <archivoPrincipal nombre="PaginasMod.class.php"/>
+                </coreDir>
+            </archivos>
+            <acciones default="inicio">
+                <accion nombre="inicio">
+                    <permisos>
+                        <permiso>publica</permiso>
+                    </permisos>
+                </accion>
+				<accion nombre="noticias">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="servicios">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="contacto">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+            </acciones>
+            <menuPrincipal name="Paginas" accion="listar" tag="paginas">
+				<menuItem name="inicio" accion="inicio" tag="Inicio"></menuItem>
+				<menuItem name="noticias" accion="noticias" tag="Noticias"></menuItem>
+				<menuItem name="servicios" accion="servicios" tag="Servicios"></menuItem>
+				<menuItem name="contacto" accion="contacto" tag="Contacto"></menuItem>
+			</menuPrincipal>
+        </modulo>
+		<modulo nombre="Donacion">
+			<archivos>
+				<coreDir ruta="Donacion">
+					<archivoPrincipal nombre="DonacionMod.class.php"/>
+				</coreDir>
+			</archivos>
+			<acciones default="alta">
+				<accion nombre="listar"></accion>
+				<accion nombre="alta">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+                <accion nombre="dar">
+                    <permisos>
+                        <permiso>publica</permiso>
+                    </permisos>
+                </accion>
+				<accion nombre="recibir">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="voluntario">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="checkDonante">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="checkONG">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="getContenidoMensaje">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="checkONG">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="checkUser">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+			</acciones>
+			<menuPrincipal name="donacion" accion="alta" tag="donacion">
+				<menuItem name="quiero-dar" accion="dar" tag="Quiero Dar" ></menuItem>
+				<menuItem name="quiero-recibir" accion="recibir" tag="Quiero Recibir" ></menuItem>
+				<menuItem name="quiero-voluntario" accion="voluntario" tag="Quiero Ser Voluntario" ></menuItem>
+			</menuPrincipal>
+		</modulo>
+		<modulo nombre="WebService">
+			<archivos>
+				<coreDir ruta="WebService">
+					<archivoPrincipal nombre="WebServiceMod.class.php"/>
+				</coreDir>
+			</archivos>
+			<acciones>
+				<accion nombre="login">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+                <accion nombre="locations">
+                    <permisos>
+                        <permiso>publica</permiso>
+                    </permisos>
+                </accion>
+				<accion nombre="register">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+
+                <accion nombre="getEnviosProducto">
+                    <permisos>
+                        <permiso>publica</permiso>
+                    </permisos>
+                </accion>
+				<accion nombre="recibirProducto">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="enviarProducto">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="getUltimoEnvioProducto">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+				<accion nombre="getUserData">
+					<permisos>
+						<permiso>publica</permiso>
+					</permisos>
+				</accion>
+
+
+			</acciones>
+			<menuPrincipal name="" accion="" tag=""></menuPrincipal>
+		</modulo>
+	</modulos>
+	<templates default="default" path="templates">
+		<template dir="default" nombre="default">
+            <dir ruta="common">
+                <archivo nombre="header.tpl" sys-name="Header"></archivo>
+                <archivo nombre="footer.tpl" sys-name="Footer"></archivo>
+				<archivo nombre="head.tpl" sys-name="Head"></archivo>
+				<archivo nombre="default.tpl" sys-name="Default"></archivo>
+				<archivo nombre="menu.tpl" sys-name="Menu"></archivo>
+            </dir>
+		</template>
+	</templates>
+</sistema>

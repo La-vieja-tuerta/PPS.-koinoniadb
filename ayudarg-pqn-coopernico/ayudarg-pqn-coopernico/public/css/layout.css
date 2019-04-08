@@ -1,0 +1,18 @@
+footer #content {border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}
+footer #content .col-1 {width:292px;margin-right:9px}
+footer #content .col-2 {width:292px}
+footer #content .col-3 {width:597px;margin-right:40px}
+footer footer .col-1 {width:190px;margin-right:55px}
+footer footer .col-2 {width:110px;margin-right:55px}
+footer footer .col-3 {width:140px;margin-right:65px}
+footer footer .col-4 {width:325px}
+.main > #content  .col-4 {width:235px; margin-left: 30px}
+.main > #content .donacion .col-1 {width:292px;margin-right:9px}
+.main > #content .donacion .col-2 {width:292px}
+.main > #content .donacion .col-3 {width:655px;margin-right:41px}
+.main > #content .donacion {padding:12px 0}
+.main > #content .donacion .block-news {padding:27px 33px 36px}
+.main > #content .servicios  .col-3 {width:425px;margin-right:45px}
+.main > #content .servicios  .col-4 {width:420px}
+.main > #content .noticias .col-3 {width:650px;margin-right:45px}
+.main > #content .contacto .col-3 {width:655px;margin-right:41px}

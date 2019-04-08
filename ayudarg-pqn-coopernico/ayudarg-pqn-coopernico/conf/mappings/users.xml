@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Users" tabla="users">		<id columna="id" nombre="id" />
+		<propiedad columna="role_id" nombre="roleId" />
+		<propiedad columna="username" nombre="username" />
+		<propiedad columna="password" nombre="password" />
+		<propiedad columna="name" nombre="name" />
+		<propiedad columna="email" nombre="email" />
+		<propiedad columna="address" nombre="address" />
+		<propiedad columna="phone" nombre="phone" />
+		<propiedad columna="location_id" nombre="locationId" />
+		<propiedad columna="website" nombre="website" />
+		<propiedad columna="activation_key" nombre="activationKey" />
+		<propiedad columna="timezone" nombre="timezone" />
+		<propiedad columna="status" nombre="status" />
+		<propiedad columna="updated" nombre="updated" />
+		<propiedad columna="created" nombre="created" />
+		<propiedad columna="latitude" nombre="latitude" />
+		<propiedad columna="longitude" nombre="longitude" />
+	</clase>
+</mapping>

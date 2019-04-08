@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+    <clase nombre="ResourcesParents" tabla="resources_parents">
+        <id columna="id" nombre="id" />
+        <propiedad nombre="resourceId" columna="resource_id"/>
+        <propiedad nombre="parentId" columna="parent_id"/>
+    </clase>
+</mapping>

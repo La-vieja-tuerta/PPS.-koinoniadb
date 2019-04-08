@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo '[{"recurso":"00701","desrcipcion":"2 plazas","cantidad":5},{"recurso":"00923","desrcipcion":"1 plaza","cantidad":3}]';
+echo "Se obtuvo leyendo $1"

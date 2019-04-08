@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="DistancesInstitutions" tabla="distances_institutions">		<id columna="id" nombre="id" />
+		<propiedad columna="id_origin" nombre="idOrigin" />
+		<propiedad columna="id_destinations" nombre="idDestinations" />
+		<propiedad columna="distance" nombre="distance" />
+	</clase>
+</mapping>

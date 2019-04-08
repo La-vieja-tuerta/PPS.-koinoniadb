@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Departments" tabla="departments">		<id columna="id" nombre="id" />
+		<propiedad columna="province_id" nombre="provinceId" />
+		<propiedad columna="name" nombre="name" />
+	</clase>
+</mapping>

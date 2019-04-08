@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Preferences" tabla="preferences">		<id columna="id" nombre="id" />
+		<propiedad columna="user_id" nombre="userId" />
+		<propiedad columna="app_menu_can_move" nombre="appMenuCanMove" />
+		<propiedad columna="created" nombre="created" />
+		<propiedad columna="updated" nombre="updated" />
+	</clase>
+</mapping>

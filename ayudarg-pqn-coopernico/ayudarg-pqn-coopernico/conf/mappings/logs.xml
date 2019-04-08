@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Logs" tabla="logs">		<id columna="id" nombre="id" />
+		<propiedad columna="title" nombre="title" />
+		<propiedad columna="description" nombre="description" />
+		<propiedad columna="model" nombre="model" />
+		<propiedad columna="model_id" nombre="modelId" />
+		<propiedad columna="action" nombre="action" />
+		<propiedad columna="user_id" nombre="userId" />
+		<propiedad columna="change" nombre="change" />
+		<propiedad columna="created" nombre="created" />
+	</clase>
+</mapping>

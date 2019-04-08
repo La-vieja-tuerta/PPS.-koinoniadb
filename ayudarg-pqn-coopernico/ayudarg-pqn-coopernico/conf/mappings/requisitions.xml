@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping PUBLIC "-//FCEunicen//DTD Mapping//ES" "http://apps.econ.unicen.edu.ar/public/dtd/mapping.dtd" >
+<mapping path="entidades">
+	<clase nombre="Requisitions" tabla="requisitions">		<id columna="id" nombre="id" />
+		<propiedad columna="model" nombre="model" />
+		<propiedad columna="user_id" nombre="userId" />
+		<propiedad columna="institution_id" nombre="institutionId" />
+		<propiedad columna="row" nombre="row" />
+		<propiedad columna="request_id" nombre="requestId" />
+		<propiedad columna="description" nombre="description" />
+		<propiedad columna="status" nombre="status" />
+		<propiedad columna="status_requisition" nombre="statusRequisition" />
+		<propiedad columna="status_requisition_accomplishment" nombre="statusRequisitionAccomplishment" />
+		<propiedad columna="status_requisition_accomplishment_description" nombre="statusRequisitionAccomplishmentDescription" />
+		<propiedad columna="created" nombre="created" />
+		<propiedad columna="updated" nombre="updated" />
+	</clase>
+</mapping>
